@@ -56,6 +56,14 @@ For users seeking advanced features or system maintenance, an administrator role
 
 ![Advanced User's Use Case Diagram](uml/Admin_UseCaseDiagram.png)
 
+- **Modify Alert Thresholds:** Customize thresholds for emergency alerts and responses.
+  
+- **Calibrate Pressure Sensor:** Adjust settings to ensure accurate pressure readings.
+  
+- **Calibrate Thermometer:** Fine-tune temperature readings for precision control.
+  
+- **View Raw Sensor Data:** Access unprocessed sensor data for in-depth analysis and troubleshooting.
+
 ## Components
 
 - 1x ESP32S Development Board
