@@ -1,0 +1,20 @@
+@startuml User_UseCaseDiagram
+!include theme.puml
+
+actor User
+
+' Use cases primarily related to monitoring and managing conditions
+User -left-> (Manage CO2 Pressure)
+User -up-> (Manage Temperature)
+User -right-> (Detect CO2 Leaks)
+User -right-> (Check for Open Door)
+User -down-> (Check Beverage Level)
+User -down-> (View Vital Analytics)
+
+' Emergency notifications and actions
+(Detect CO2 Leaks) --> (Emergency Notifications)
+(Check for Open Door) --> (Emergency Notifications)
+(Detect CO2 Leaks) --> (Emergency CO2 Shut-off)
+(Check Beverage Level) --> (Low Beverage Alert)
+
+@enduml

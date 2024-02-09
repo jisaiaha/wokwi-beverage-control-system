@@ -1,0 +1,6 @@
+' theme.puml
+' Custom theme file for consistent styling across PlantUML diagrams.
+' Sets the background to transparent and prepares for future customizations.
+
+' Set the background color to transparent
+' skinparam backgroundColor transparent

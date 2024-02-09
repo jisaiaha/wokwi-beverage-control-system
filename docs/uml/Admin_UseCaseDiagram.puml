@@ -1,0 +1,12 @@
+@startuml Admin_UseCaseDiagram
+!include theme.puml
+
+actor Administrator
+
+' Administrator-specific use cases
+Administrator -down-> (Calibrate Pressure Sensor)
+Administrator -down-> (Calibrate Thermometer)
+Administrator -right-> (View Raw Sensor Data)
+Administrator -left-> (Modify Alert Thresholds)
+
+@enduml
